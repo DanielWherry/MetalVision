@@ -1,8 +1,9 @@
 import tensorflow as tf
-from tensorflow.keras.preprocessing.image import ImageDataGenerator
-from tensorflow.keras.applications import ResNet50
-from tensorflow.keras.layers import Dense, GlobalAveragePooling2D
-from tensorflow.keras.models import Model
+from tensorflow import keras
+from keras._tf_keras.keras.preprocessing.image import ImageDataGenerator
+from keras._tf_keras.keras.applications import ResNet50
+from keras._tf_keras.keras.layers import Dense, GlobalAveragePooling2D
+from keras._tf_keras.keras.models import Model
 
 # Data preprocessing and augmentation
 train_datagen = ImageDataGenerator(
